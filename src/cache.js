@@ -1,5 +1,6 @@
 'use strict';
 
+// Variable
 const cacheCreate = require('./cache/lru');
 
 module.exports = cacheCreate({
